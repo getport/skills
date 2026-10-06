@@ -93,7 +93,7 @@ curl -s https://getport.app/api/v1/perps -H "Authorization: Bearer $PORT_API_KEY
 
 ## GET /api/v1/predictions
 
-Polymarket positions grouped by event, with whether the chain agreed on each.
+Polymarket and Limitless positions grouped by event, with whether the chain agreed on each.
 
 MCP tool: `port_predictions`.
 
@@ -168,7 +168,7 @@ Notes:
 
 - Answers 404 `no_briefing` when none has been written yet, or none for that day. That is the normal answer for a new account, not a fault.
 
-Fields of `data`: `day`, `at`, `greeting`, `summary`, `stories`, `complete`.
+Fields of `data`: `day`, `at`, `greeting`, `summary`, `stories`, `complete`, `news`.
 
 ```bash
 curl -s https://getport.app/api/v1/briefing -H "Authorization: Bearer $PORT_API_KEY"
