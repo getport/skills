@@ -37,7 +37,7 @@ this skill is the reference for what the answers mean.
 | Base URL           | `https://getport.app/api/v1`                           |
 | Auth               | `Authorization: Bearer $PORT_API_KEY`                  |
 | Format             | JSON, amounts and USD figures as strings               |
-| Limits | Pro+ 300 a minute, 25,000 a day and 3 refreshes a day; Ultra 600, 100,000 and 3. Free and Pro have no API. |
+| Limits | Pro+ 300 a minute, 25,000 a day and 3 refreshes a day; Ultra 600, 100,000 and 3. Free has no API, and Pro has Pro+'s while the open beta runs. |
 | OpenAPI            | `https://getport.app/api/v1/openapi.json`, no key      |
 | Endpoint reference | [references/endpoints.md](references/endpoints.md)     |
 
