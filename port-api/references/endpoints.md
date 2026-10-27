@@ -6,7 +6,7 @@ Base URL `https://getport.app`. Every request carries `Authorization: Bearer $PO
 
 Port, holdings, positions, perps, predictions, NFTs and activity are about the wallets you own: watched wallets and wallets you have excluded are left out, as they are on those screens, and a refresh reads only the same wallets. PnL covers every wallet on the account, as the PnL screen does, and so does `walletCount` in `/api/v1/me`. `/api/v1/wallets` lists every wallet, each marked.
 
-Limits, per account by plan: Pro+ 300 a minute, 25,000 a day and 3 refreshes a day; Ultra 600, 100,000 and 3. Free has no API, and Pro has Pro+'s while the open beta runs. Past one, the answer is 429 with `Retry-After`.
+Limits, per account by plan: Pro+ 300 a minute, 25,000 a day and 3 refreshes a day; Ultra 600, 100,000 and 3. Free and Pro have no API. Past one, the answer is 429 with `Retry-After`.
 
 ## GET /api/v1/me
 

@@ -57,7 +57,7 @@ codex plugin marketplace add getport/skills
 codex plugin add port@port
 ```
 
-It needs a Port_ Pro account, which is free during the open beta. Scripts that call the REST
+It needs a Port_ Pro+ account or above. Scripts that call the REST
 API use a key instead, made under Settings, API access; `port-api/SKILL.md` has how.
 
 ## What your AI can ask
